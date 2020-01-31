@@ -1,0 +1,199 @@
+/* Estilos generales */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Genérico*/
+.separador{
+    background-color:#f5bd34;
+    height: 10px;
+    margin: 0px;
+}
+
+
+/*Estilos del Header*/
+
+.bg-header{
+    background: repeating-linear-gradient(-60deg, 
+    #535352 0, #535352 74%,
+    #ffffff 0, #ffffff );    
+}
+
+.pleca{
+    padding: 0px 40px 0px 0px;
+    display: inline-block;
+}
+
+.size-logo{
+    width: 163px;
+    height: 29px;
+}
+
+/*Estilos del Baner*/
+
+.bg-baner{
+    background-image: url('../assets/imagenes/baner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.text-baner {
+    height:80vh;
+}
+
+.titulo1{
+    color: #f5bd34;
+    font-family:  'Lato';
+    font-size: 34px;
+}
+.titulo2{
+    font-size: 18px;
+    font-family: 'Lato';
+    color: #d4d4d4;
+}
+
+.hr{
+    background-color: #f5bd34 ;
+    padding: 0.5px 0px;
+}
+
+.mas{
+    color: #979797;
+}
+
+.flechita-icono-b{
+    width: 17px;
+}
+
+/*Estilos de Productos*/
+
+.size-productos{
+    color:#8b8a8a;
+    font-family: 'Tahoma';
+    font-size: 20px;
+}
+.img-producto{
+    border-width: 1px;
+    border-right-style: solid;
+    border-color: #eae7e7;
+}
+.flechita-icono{
+    width: 35px;
+}
+
+
+/*Estilos de Servicios*/
+.img-servicio{
+    width: 182px;
+    height:182px;
+}
+.div-servicio{
+    width: 182px;
+    margin: 0 auto;
+    background-color:#eeeeee;
+    color:  #333333;
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.div-servicio:hover{
+    background-color: #f5bd34;
+    color: #ffffff;
+}
+
+/*Estilos de Equimap*/
+.fuente-map{
+ font-size: 18px;
+ font-family: 'lato';
+ color: #444444;
+    
+}
+
+/*Estilos de Footer*/
+.footer{
+    background-color: #444444;
+    color: #ffffff;
+}
+.logo-footer{
+    width: 130px;
+}
+
+.borde-footer{
+    border-width: 1px;
+    border-right-style: solid;
+    border-color: #eeeeee;
+}
+
+
+.size-footer-l{
+    font-size: 14px;
+    list-style: none;
+    line-height: 30px;
+    font-family: 'lato';
+    color: #f3f3f3;
+}
+
+.size-footer{
+    font-size: 14px;
+    font-family: 'lato';
+    color: #cccccc;
+}
+
+.size-footer-p{
+    font-size: 12px;
+    font-family: 'lato';
+    color: #cccccc;
+}
+
+.color-footer{
+    color: #f3f3f3;
+}
+.last-footer{
+    background-color: #111111;
+    color: #cccccc;
+}
+
+
+
+/*______________________Celular_______________________*/
+
+@media (max-width: 986px) {
+    .bg-header{
+        background: repeating-linear-gradient(180deg, 
+         rgb(233, 166, 42) 0%,  #0e0d0d 100% );    
+    }
+    
+    .img-producto{
+        border-width: 0px;
+    }
+    .borde-footer{
+        border-width: 0px;
+    }
+
+    .formato{
+        width: 200px;
+    }
+
+    .size-footer{
+        text-align: center;
+    }
+    
+
+    .size-footer-p{
+        list-style: none;
+        text-align: center;
+    }
+
+    .pleca{
+        display: none;
+    }
+    
+    
+}
+
+
